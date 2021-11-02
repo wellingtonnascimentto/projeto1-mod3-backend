@@ -18,5 +18,13 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.14"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wellingtonnascimentto/projeto1-mod3-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wellingtonnascimentto/projeto1-mod3-backend/issues"
+  },
+  "homepage": "https://github.com/wellingtonnascimentto/projeto1-mod3-backend#readme"
 }

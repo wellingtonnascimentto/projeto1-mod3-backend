@@ -74,7 +74,6 @@ router.put("/:id", (req,res) => {
     
     console.log(local);
     
-    listaMusicas[id] = req.body;
 
     if(!local.musica){
         res.status(400).json({message:"musica na requisição esta vazio"});
@@ -93,6 +92,7 @@ router.put("/:id", (req,res) => {
         return;
     }
 
+    listaMusicas[id] = req.body;
     res.status(200).json(listaMusicas[id]);
 });
 

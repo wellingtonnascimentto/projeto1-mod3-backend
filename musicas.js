@@ -70,7 +70,7 @@ router.post("/", (req,res) => {
 
 router.put("/:id", (req,res) => {
     const id = req.params.id;
-    const local = listaMusicas[id];
+    const local = req.body;
     
     console.log(local);
     
